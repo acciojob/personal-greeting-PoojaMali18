@@ -17,7 +17,7 @@ const App = () => {
         <label>Enter your name:</label>
         <input onChange={(e)=>setName(e.target.value)} placeholder="enter name"></input>
         </form>     
-      <h1>Hello{name}</h1>
+      <h1>Hello {name}</h1>
     </div>
   )
 }
