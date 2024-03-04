@@ -14,6 +14,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
        <form>
+        <label>Enter your name:</label>
         <input onChange={(e)=>setName(e.target.value)} placeholder="enter name"></input>
         </form>     
       <h1>Hello{name}</h1>
